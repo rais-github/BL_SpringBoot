@@ -13,11 +13,4 @@ public class BlTask1SpringbootApplication {
 	}
 }
 
-@RestController
-class HelloController {
 
-	@GetMapping
-	public String sayHello() {
-		return "Hello, World!";
-	}
-}
